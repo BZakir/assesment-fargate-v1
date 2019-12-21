@@ -40,7 +40,9 @@ Optional
 
 ## Deploy
 
-TODO: Document how to run
+cd to terraform 
+terraform plan
+terraform apply
 
 ## Test the whole setup
 
