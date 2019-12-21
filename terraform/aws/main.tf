@@ -25,6 +25,7 @@ module "ecs-fargate" {
   private_subnets_ids          = module.networking.private_subnets_ids
   container_name               = local.container_name
   container_image              = local.container_image
+  entrypoint                   = "/service"
   container_cpu                = 1024
   container_memory             = 1024
   container_memory_reservation = 256
